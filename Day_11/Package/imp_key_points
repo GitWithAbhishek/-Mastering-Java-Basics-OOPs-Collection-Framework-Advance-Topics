@@ -1,0 +1,8 @@
+Create a file MyPackageClass.java and declare the package.
+javac -d . MyPackageClass.java
+create another class in a different file to use the package.
+TestPackage.java
+javac TestPackage.java
+java TestPackage
+
+Note: Any Further Kind Of Changes Made In Package class Then You Have To Rerun javac -d . MyPackageClass.java (To Update The Package)
